@@ -1,4 +1,8 @@
-steps:
-    - name: "Portfolio"
-      run: echo "Successfully done"
-         
+stages:
+    - message
+
+
+
+message:
+    stage: message
+    script: echo "Successfully Done"

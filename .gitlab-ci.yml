@@ -1,5 +1,4 @@
 steps:
-    -name : "Portfolio"
-    
-    run: echo "Successfully done"
+    - name: "Portfolio"
+      run: echo "Successfully done"
          
